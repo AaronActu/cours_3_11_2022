@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    h1= message
+    ul
+      each groupe, index in result
+        h2= 'Groupe n°' + (index+1)
+        each personne, i in groupe
+          li= personne

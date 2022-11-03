@@ -1,0 +1,21 @@
+{
+  "name": "monolith",
+  "version": "1.0.0",
+  "description": "Monolith demonstration",
+  "main": "index.ts",
+  "repository": "tocomplete",
+  "author": "AaronActu <23706031+AaronActu@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  }
+}
